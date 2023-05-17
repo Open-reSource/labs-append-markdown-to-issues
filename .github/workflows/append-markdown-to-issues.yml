@@ -1,0 +1,20 @@
+name: Append Markdown to issue body
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  append:
+    permissions: write-all
+    if: github.repository == 'Open-reSource/labs-append-markdown-to-issues'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Issue Body
+        uses: julien-deramond/update-issue-body@v0.0.1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            <hr>
+
+            _**Kind reminder for contributors:** As stated in our [Contributing Guidelines](https://github.com/Open-reSource/labs-append-markdown-to-issues/blob/main/CONTRIBUTING.md), we don't assign issues in this repository._
