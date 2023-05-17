@@ -12,6 +12,10 @@ Thanks to the [julien-deramond/update-issue-body](https://github.com/julien-dera
 
 You can see the result in https://github.com/Open-reSource/labs-append-markdown-to-issues/issues/17 and https://github.com/Open-reSource/labs-append-markdown-to-issues/issues/18 that have been modified by the workflow.
 
+<img width="927" alt="Screenshot 2023-05-17 at 21 15 03" src="https://github.com/Open-reSource/labs-append-markdown-to-issues/assets/17381666/79a0eeb5-a988-46fc-bc0d-b191c82ae568">
+
+<img width="913" alt="Screenshot 2023-05-17 at 21 15 13" src="https://github.com/Open-reSource/labs-append-markdown-to-issues/assets/17381666/ad7991aa-8bff-4d32-b40e-2a43b95c9760">
+
 ## Steps to install it in your repository
 
 1. Create a new worfklow in `.github/worfklows` (name doesn't matter)
