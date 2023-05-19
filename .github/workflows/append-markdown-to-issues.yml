@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update Issue Body
-        uses: julien-deramond/update-issue-body@v0.0.1
+        uses: julien-deramond/update-issue-body@v1
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
