@@ -6,7 +6,9 @@ on:
 
 jobs:
   append:
-    permissions: write-all
+    permissions:
+      # allow julien-deramond/update-issue-body to update issues
+      issues: write
     if: github.repository == 'Open-reSource/labs-append-markdown-to-issues'
     runs-on: ubuntu-latest
     steps:
