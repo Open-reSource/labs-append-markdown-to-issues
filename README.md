@@ -22,3 +22,9 @@ You can see the result in https://github.com/Open-reSource/labs-append-markdown-
 2. Copy and paste the content of [`.github/workflows/append-markdown-to-issues.yml`](.github/workflows/append-markdown-to-issues.yml) in your workflow file and adapt its content to your needs
 
 You can copy and paste this repository's workflow content in your own repository if you want to do the same thing for enforcing your own Contributing Guidelines for example, or adapt it to your needs.
+
+## Sponsors of Open {re}Source
+
+<p align="center">
+  <img src='https://cdn.jsdelivr.net/gh/Open-reSource/sponsors/sponsors.svg'/>
+</p>
