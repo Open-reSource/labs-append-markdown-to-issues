@@ -1,3 +1,5 @@
+<p align="center"><picture><source srcset=".github/header.svg" type="image/svg+xml"><img src=".github/header.png" width="830" alt="Append Markdown to Issues, by Open {re}Source Labs. A workflow that appends your contributing guidelines to every new issue."></picture></p>
+
 # [Labs] Automatically append Markdown to issues
 
 This repository contains a GitHub workflow allowing to append a reminder of the Contributing Guidelines for each newly created issue as stated by:
@@ -30,3 +32,5 @@ You can copy and paste this repository's workflow content in your own repository
     <img src='https://cdn.jsdelivr.net/gh/Open-reSource/sponsors/sponsors.svg'/>
   </a>
 </p>
+
+<sub>The Open {re}Source mark and the header image (`.github/header.*`) are not covered by the licence of this repository: all rights reserved.</sub>
