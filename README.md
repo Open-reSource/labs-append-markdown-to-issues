@@ -1,6 +1,12 @@
-<p align="center"><picture><source srcset=".github/header.svg" type="image/svg+xml"><img src=".github/header.png" width="830" alt="Append Markdown to Issues, by Open {re}Source Labs. A workflow that appends your contributing guidelines to every new issue."></picture></p>
+<h1 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/logo-title-dark.svg"><source media="(prefers-color-scheme: light)" srcset=".github/logo-title-light.svg"><img src=".github/logo-title-light.png" width="755" alt="Append Markdown to Issues"></picture></h1>
 
-# [Labs] Automatically append Markdown to issues
+<p align="center">A workflow that appends your contributing guidelines to every new issue.</p>
+
+<p align="center">
+  <a href="#steps-to-install-it-in-your-repository">Install</a>
+  ·
+  <a href="https://github.com/Open-reSource/labs-append-markdown-to-issues/issues/new/choose">Report a bug</a>
+</p>
 
 This repository contains a GitHub workflow allowing to append a reminder of the Contributing Guidelines for each newly created issue as stated by:
 
@@ -33,4 +39,4 @@ You can copy and paste this repository's workflow content in your own repository
   </a>
 </p>
 
-<sub>The Open {re}Source mark and the header image (`.github/header.*`) are not covered by the licence of this repository: all rights reserved.</sub>
+<sub>The Open {re}Source mark and the logo-title (`.github/logo-title-*`) are not covered by the licence of this repository: all rights reserved.</sub>
